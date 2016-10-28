@@ -22,10 +22,10 @@ b <- rbind(a,rep(1,5))
 solve(b) 
 
 #7
-cromprobacion <- b %*% solve(b) 
+comprobacion <- b %*% solve(b) 
 
 #8
-cromprobacion == i   
+comprobacion == i   
 
 #9
 n <- 25  
@@ -68,7 +68,7 @@ Sepal.Length[1:5] <- NA
 # la funcion summary nos devuelve el valor sin tener en cuenta los NA
 
 #7
-#Para solucionar el problema anterior bastaria con añadir el parametro na.rm=TRUE
+#Para solucionar el problema anterior bastaria con aÃ±adir el parametro na.rm=TRUE
 
 #8
 #Para que tengamos en cuenta a la hora de aplicar las funciones que no considere
